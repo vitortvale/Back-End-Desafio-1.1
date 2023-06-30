@@ -43,7 +43,7 @@ class Poligono {
     }
 }
 
-/*const prompt = require("prompt-sync")({ signint : true });
+const prompt = require("prompt-sync")({ signint : true });
 
 try {
     let qtdVertices = prompt('Insira a quantidade inicial de vertices do poligono ');
@@ -70,4 +70,4 @@ try {
 }
 catch(e) {
     console.log(e);
-}*/
+}

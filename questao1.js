@@ -33,8 +33,9 @@ class Vertice {
     }
 }
 
+//SUGIRO COMENTAR ESSA PARTE AO RODAR OS ARQUIVOS ('./questao2.js') e ('./questao3.js')
 
-/*const prompt = require("prompt-sync")({ signint : true });
+const prompt = require("prompt-sync")({ signint : true });
 const arr = [];
 for(let i = 0; i < 3; i++) {
     let x = prompt(`Insira X do vertice ${i + 1}`);
@@ -52,6 +53,6 @@ console.log(`arr[0] distancia arr[1] = ${arr[0].distancia(arr[2])}`);
 
 console.log(`arr[0] equals arr[1] ? ${arr[0].equals(arr[1])}`);
 console.log(`arr[1] equals arr[2] ? ${arr[1].equals(arr[2])}`);
-console.log(`arr[0] equals arr[2] ? ${arr[0].equals(arr[2])}`);*/
+console.log(`arr[0] equals arr[2] ? ${arr[0].equals(arr[2])}`);
 
 module.exports = Vertice;

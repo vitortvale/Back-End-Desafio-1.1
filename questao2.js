@@ -71,8 +71,8 @@ class Triangulo {
     }
 }
 
-
-/*try {
+//SUGIRO COMENTAR ESSA PARTE AO RODAR OS ARQUIVOS ('./questao3.js')
+try {
     const prompt = require("prompt-sync")({ signint : true });
     const triangulos = [];
     for(let i = 0; i < 3; i++) {
@@ -107,5 +107,5 @@ class Triangulo {
 
 catch(e) {
     console.log(e);
-}*/
+}
 
